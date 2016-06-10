@@ -1,0 +1,13 @@
+/* Empty. Add your own CSS if you like */
+.scanBtn{
+    margin: 0.5em;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+}
+#outBtn{
+    background-color: #D33C30;
+}
+#inBtn{
+    background-color: #21BC4D;
+}

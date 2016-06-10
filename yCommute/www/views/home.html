@@ -1,0 +1,30 @@
+<ion-view>
+    <ion-header-bar class="bar-stable bar-positive bar-header" align-title="center">
+        <h1 class="title">유라 근태관리</h1>
+    </ion-header-bar>
+    
+    <ion-content scroll="false">
+    
+        <div class="card">
+            <div class="item row">
+                <button class="button button-calm col scanBtn" ng-click="vm_scan()">
+<!--                    <i class="icon ion-qr-scanner"></i>-->
+                    입문<br>IN
+                </button>
+                <button  class="button button-assertive col scanBtn" ng-click="vm_scan()">
+                    출문<br>OUT
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="item item-divider">근태내용</div>
+            <div class="item item-text-wrap">
+                관계사 : 유라<br>
+                소속 : IT사업부 / 솔루션개발팀<br>
+                이름 : 차양환<br>
+                {{msg}}
+            </div>
+        </div>
+    
+    </ion-content>
+</ion-view>

@@ -1,0 +1,8 @@
+{
+    "jscodehints.detectedExclusions": [
+        "D:/projects/yCommute/platforms/android/cordova/lib/device.js",
+        "D:/projects/yCommute/platforms/android/cordova/lib/emulator.js",
+        "D:/projects/yCommute/platforms/android/cordova/lib/exec.js",
+        "D:/projects/yCommute/platforms/android/cordova/lib/log.js"
+    ]
+}
